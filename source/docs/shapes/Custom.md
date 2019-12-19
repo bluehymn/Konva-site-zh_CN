@@ -3,7 +3,7 @@ title: HTML5 canvas Custom Shape Tutorial
 
 To create a custom shape with Konva, we can instantiate a `Konva.Shape()` object.
 
-When creating a custom shape, we need to define a drawing function that is passed a [Konva.Context](/api/Konva.Context.html) renderer and a shape instance:
+When creating a custom shape, we need to define a drawing function that is passed a [Konva.Context](/cn.konvajs/api/Konva.Context.html) renderer and a shape instance:
 
 ```javascript
 var rect = new Konva.Shape({
@@ -29,7 +29,7 @@ We can use the renderer to access the HTML5 Canvas context, and to use special m
 
 There are two properties that can be used for drawing custom shapes: `sceneFunc` and `hitFunc`.
 
-`sceneFunc` should be used to define visual appearance of a shape. `Konva` will use `sceneFunc` for drawing its hit graph for events detecting. So in many cases you just need to define `sceneFunc` only. If you want to overwrite hit testing, take a look into [Custom Hit Region demo](/docs/events/Custom_Hit_Region.html).
+`sceneFunc` should be used to define visual appearance of a shape. `Konva` will use `sceneFunc` for drawing its hit graph for events detecting. So in many cases you just need to define `sceneFunc` only. If you want to overwrite hit testing, take a look into [Custom Hit Region demo](/cn.konvajs/docs/events/Custom_Hit_Region.html).
 
 ### Some best practices for writing `sceneFunc` and `hitFunc`:
 
@@ -47,8 +47,8 @@ There are two properties that can be used for drawing custom shapes: `sceneFunc`
 
 
 
-For a full list of attributes and methods, check out the [Konva.Shape documentation](/api/Konva.Shape.html)
+For a full list of attributes and methods, check out the [Konva.Shape documentation](/cn.konvajs/api/Konva.Shape.html)
 
-{% iframe /downloads/code/shapes/Custom.html %}
+{% iframe /cn.konvajs/downloads/code/shapes/Custom.html %}
 
 {% include_code Konva Custom Demo shapes/Custom.html %}
