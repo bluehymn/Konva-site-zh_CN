@@ -1,6 +1,7 @@
 ### 当前同步到官网2019-12-12版本
 
-### 页面地址 [http://konvajs-doc.bluehymn.com](http://konvajs-doc.bluehymn.com/)
+
+### 页面地址 [http://konvajs-doc.bluehymn.com](http://konvajs-doc.bluehymn.com)
 
 # Konva Website
 
