@@ -1,13 +1,10 @@
-title: HTML5 Canvas Remove Event Listener by Name with Konva
+title: 通过名称移除事件
 ---
 
-To remove an event listener by name with Konva,
-we can namespace the event type with the `on()` method so that we can later
-remove the event listener by the same namespace with the `off()` method.
+需要通过名称移除事件时，我们可以使用 `on()` 时给事件设置命名空间，之后可以使用 `off()` 方法设置的命名空间移除事件。
 
-Instructions: Click on the circle to see two alerts triggered from two different
-onclick event bindings.  Remove the event listeners using the buttons to
-the left, and again click on the circle to observe the new onclick bindings.
+说明：点击下面的圆形可以看到两个事件绑定的 alert 弹出，点击左边的按钮移除事件监听，然后再次点击圆形观察变化。
+
 
 {% iframe /downloads/code/events/Remove_by_Name.html %}
 

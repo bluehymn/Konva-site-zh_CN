@@ -1,7 +1,7 @@
-title: HTML5 Canvas Special Stage Events Konva
+title: Stage 事件
 ---
 
-All events are started from Shapes. So if you click on an empty space within a canvas, a `click` event will not trigger on `Layer`  But it will trigger on the `Stage` object instead.
+所有事件都时从 Shapes 触发，因此如果点击空的 layer, layer 上的事件将不会被触发。但是将会触发 `Stage` 的事件。
 
 {% iframe /downloads/code/events/Stage_Events.html %}
 
