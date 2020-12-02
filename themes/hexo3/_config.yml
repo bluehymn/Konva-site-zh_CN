@@ -63,15 +63,15 @@ doc_sidebar:
     触发事件: events/Fire_Events.html
     舞台事件: events/Stage_Events.html
     键盘事件: events/Keyboard_Events.html
-  拖放:
-    拖放: drag_and_drop/Drag_and_Drop.html
-    拖动图片: drag_and_drop/Drag_an_Image.html
-    拖动组: drag_and_drop/Drag_a_Group.html
-    拖动线条: drag_and_drop/Drag_a_Line.html
-    拖动舞台: drag_and_drop/Drag_a_Stage.html
+  拖拽:
+    拖拽: drag_and_drop/Drag_and_Drop.html
+    拖拽图片: drag_and_drop/Drag_an_Image.html
+    拖拽组: drag_and_drop/Drag_a_Group.html
+    拖拽线条: drag_and_drop/Drag_a_Line.html
+    拖拽舞台: drag_and_drop/Drag_a_Stage.html
     拖动事件: drag_and_drop/Drag_Events.html
-    限制拖动区域: drag_and_drop/Simple_Drag_Bounds.html
-    复杂拖放: drag_and_drop/Complex_Drag_and_Drop.html
+    简单的拖拽区域: drag_and_drop/Simple_Drag_Bounds.html
+    复杂的拖拽区域: drag_and_drop/Complex_Drag_and_Drop.html
     释放事件: drag_and_drop/Drop_Events.html
   选择和变换图形:
     基础示例: select_and_transform/Basic_demo.html
@@ -123,9 +123,9 @@ doc_sidebar:
     缩放: animations/Scaling.html
     停止动画: animations/Stop_Animation.html
   选择器:
-    通过  id: selectors/Select_by_id.html
-    通过 type: selectors/Select_by_Type.html
-    通过 name: selectors/Select_by_Name.html
+    id 选择器: selectors/Select_by_id.html
+    type 选择器: selectors/Select_by_Type.html
+    name 选择器: selectors/Select_by_Name.html
   数据 & 序列化 & 导出:
     序列化舞台数据: data_and_serialization/Serialize_a_Stage.html
     简单导入: data_and_serialization/Simple_Load.html

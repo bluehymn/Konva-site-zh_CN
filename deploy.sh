@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+rm -rf ./public
+mkdir public
+
 rm ./db.json
 npm run build
 

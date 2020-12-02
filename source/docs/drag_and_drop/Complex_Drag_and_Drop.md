@@ -1,15 +1,11 @@
-title: HTML5 Canvas Complex Drag and Drop Bounds
+title: 复杂的拖拽区域限制
 ---
 
-To bound the movement of nodes being dragged and dropped inside regions with
-Konva, we can use the `dragBoundFunc` property to define boundaries that
-the node cannot cross.
+我们可以使用 `dragBoundFunc` 属性定义一个区域，限制节点只能在这个区域内拖拽。
 
-**Note: `dragBoundsFunc` is working with absolute position of a node. So it has a new absolute position as argument and you need to return a new absolute position. You can try to use `dragmove` event, if you want to operate with local position.**
+提示：`dragBoundsFunc` 使用的是绝对坐标，所以你必须返回绝对坐标。如果你想使用相对坐标可以配合使用 `dragmove` 事件。
 
-Instructions: Drag and drop the the light blue rectangle and observe that it
-is bound below an imaginary boundary at y = 50. Drag and drop the yellow
-rectangle and observe that it is bound inside of an imaginary circle.
+说明：拖拽蓝色矩形，观察它的 y 坐标被限制在大于50；拖拽黄色矩形，观察它的拖拽区域被限制在一个圆形区域内。
 
 {% iframe /downloads/code/drag_and_drop/Complex_Drag_and_Drop.html %}
 

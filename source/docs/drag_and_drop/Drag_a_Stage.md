@@ -1,11 +1,9 @@
-title: HTML5 Canvas Drag and Drop the Stage
+title: 拖拽舞台
 ---
 
-To drag and drop a stage with Konva, we can set the `draggable` property
-of the config object to `true` when the group is instantiated, or we can use the `draggable()` method.
+舞台也支持拖拽，我们只需要设置舞台的 `draggable` 属性为 true, 或者使用 `draggable()` 方法设置。
 
-Unlike drag and drop for other nodes, such as shapes, groups, and layers,
-we can drag the entire stage by dragging any portion of the stage.
+舞台与图形、组和图层不同，我们可以在舞台的任何区域拖动它。
 
 {% iframe /downloads/code/drag_and_drop/Drag_a_Stage.html %}
 
