@@ -1,14 +1,10 @@
-title: HTML5 Canvas Drag and Drop Tutorial
+title: 拖拽
 ---
 
-To drag and drop shapes with Konva, we can set the `draggable` property
-to true when we instantiate a shape, or we can use the `draggable()` method.
-The `draggable()` method enables drag and drop for both desktop and mobile
-applications automatically.
+我们可以设置 `draggable` 为 true 或者使用 `draggable()` 方法使图形可以被拖拽。`draggable()` 方法会自动适配桌面端和移动端。
 
-To detect drag and drop events with Konva, we can use the `on()` method to
-bind `dragstart`, `dragmove`, or `dragend` events to a node.
-The `on()` method requires an event type and a function to be executed when the event occurs.
+我们通过 `on()` 方法监听节点的 `dragstart`、 `dragmove`、 `dragend` 等拖拽事件，`on()` 方法需要传入事件类型和事件发生时执行的函数。
+
 
 {% iframe /downloads/code/drag_and_drop/Drag_and_Drop.html %}
 

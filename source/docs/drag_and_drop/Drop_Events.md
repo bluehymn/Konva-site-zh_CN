@@ -1,6 +1,8 @@
 title: HTML5 Canvas Drop Events
 ---
 
+Konva 不知道 drop 事件，但是你可以自己的事件监听；
+
 Konva does not support drop events. But you can write your own drop events detections.
 To detect drop target shape you have to move dragging object into another layer.
 

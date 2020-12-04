@@ -1,9 +1,7 @@
-title: HTML5 Canvas Drag and Drop Events
+title: 拖拽事件
 ---
 
-To detect drag and drop events with Konva, we can use the `on()` method to
-bind `dragstart`, `dragmove`, or `dragend` events to a node.
-The `on()` method requires an event type and a function to be executed when the event occurs.
+我们通过 `on()` 方法监听节点的 `dragstart`、 `dragmove`、 `dragend` 等拖拽事件，`on()` 方法需要传入事件类型和事件发生时执行的函数。
 
 {% iframe /downloads/code/drag_and_drop/Drag_Events.html %}
 
