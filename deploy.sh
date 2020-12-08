@@ -13,7 +13,7 @@ DATE=`date +%Y-%m-%d`
 git commit -am "update ${DATE}" --allow-empty
 git push
 
-cd public
+cd ./public
 git init
 git add .
 git commit -am 'Update docs'
