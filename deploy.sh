@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
-# rm -rf ./public
-# mkdir public
+rm -rf ./public
+mkdir public
 
-# rm ./db.json
-# npm run build
+rm ./db.json
+npm run build
 
 echo "commit site changes"
 git add .

@@ -1,4 +1,4 @@
-title: 拖拽
+title: 拖拽/释放
 ---
 
 我们可以设置 `draggable` 为 true 或者使用 `draggable()` 方法使图形可以被拖拽。`draggable()` 方法会自动适配桌面端和移动端。

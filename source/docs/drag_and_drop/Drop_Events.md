@@ -1,14 +1,13 @@
 title: HTML5 Canvas Drop Events
 ---
 
-Konva 不知道 drop 事件，但是你可以自己的事件监听；
+Konva 不支持 drop 事件，但是你可以编写自己释放事件。
 
-Konva does not support drop events. But you can write your own drop events detections.
-To detect drop target shape you have to move dragging object into another layer.
+监听释放事件的对时，你需要先将拖动的对象移动到其它的图层。
 
-In this example you can see implementation of `drop`, `dragenter`, `dragleave`, `dragover` events.
+下面的例子展示了 `drop`, `dragenter`, `dragleave`, `dragover` 等事件的实现。
 
-Instructions: drag one shape over another. Or drag and drop one shape into another.
+说明：尝试拖动一个图形到另外一个上面然后释放。
 
 {% iframe /downloads/code/drag_and_drop/Drop_Events.html %}
 

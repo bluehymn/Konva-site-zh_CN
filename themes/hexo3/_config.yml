@@ -63,7 +63,7 @@ doc_sidebar:
     触发事件: events/Fire_Events.html
     舞台事件: events/Stage_Events.html
     键盘事件: events/Keyboard_Events.html
-  拖拽:
+  拖拽/释放:
     拖拽: drag_and_drop/Drag_and_Drop.html
     拖拽图片: drag_and_drop/Drag_an_Image.html
     拖拽组: drag_and_drop/Drag_a_Group.html
