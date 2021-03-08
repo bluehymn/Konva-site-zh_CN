@@ -79,10 +79,12 @@ doc_sidebar:
     保持宽高比: select_and_transform/Keep_Ratio.html
     修改样式: select_and_transform/Transformer_Styling.html
     图形变换事件: select_and_transform/Transform_Events.html
-    缩放限制: select_and_transform/Resize_Limits.html
+    调整尺寸限制: select_and_transform/Resize_Limits.html
     旋转吸附: select_and_transform/Rotation_Snaps.html
-    停止变换: select_and_transform/Stop_Transform.html
+    禁用变换: select_and_transform/Stop_Transform.html
     强制更新: select_and_transform/Force_Update.html
+    调整文字尺寸: select_and_transform/Resize_Text.html
+    忽略描边: select_and_transform/Ignore_Stroke_On_Transform.html
   裁剪:
     简单裁剪: clipping/Clipping_Regions.html
     复杂裁剪: clipping/Clipping_Function.html
