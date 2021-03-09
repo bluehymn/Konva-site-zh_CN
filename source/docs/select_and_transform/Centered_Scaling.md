@@ -1,11 +1,11 @@
-title: HTML5 Canvas Shape Resize Relative to Center
+title: 相对于中心调整尺寸
 ---
 
-## How to resize shape in both sides simultaneously?
+## 怎样调整图形各边的尺寸?
 
-To resize a node into both sides at the same time you can set `centeredScaling` to true or hold `ALT` key while moving an anchor (even if `centeredScaling` is false).
+当我们设置 `centeredScaling` 为 true 或者按住 ALT 键移动一个控制点（即使 `centeredScaling` 是 false），就可以同时调整图形的各边的尺寸。
 
-Instructions: Try to resize texts. 
+说明：试着调整文字的尺寸
 
 {% iframe /downloads/code/select_and_transform/Centered_Scaling.html %}
 
