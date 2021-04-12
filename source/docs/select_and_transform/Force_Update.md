@@ -1,12 +1,11 @@
 title: HTML5 Canvas Force Update Tutorial
 ---
 
-`Konva.Transformer` automatically track properties of attached nodes.
-So it will adopt its own properties automatically.
+`Konva.Transformer` 会自动追踪被附加的节点属性，因此会自动根据属性的变化适配尺寸。
 
-But is some cases `Konva.Transformer` can't do this. Currently `Konva.Transformer` can not track deep changes inside `Konva.Group` node. In this case you will need to use `forceUpdate` method to reset transforming tools
+但是有些情况例外。`Konva.Transformer` 目前不能追踪 `Konva.Group` 内的变化。此时你应该使用 `forceUpdate` 重置变换工具。
 
-Instructions: Click the button. See how transformer is changed.
+说明：点击按钮，查看变换工具的变化。
 
 {% iframe /downloads/code/select_and_transform/Force_Update.html %}
 
