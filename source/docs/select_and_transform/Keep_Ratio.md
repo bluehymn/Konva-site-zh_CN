@@ -1,15 +1,13 @@
-title: HTML5 Canvas Shape Resize With Ratio Preserved
+title: 等比缩放
 ---
 
-## How to resize shape with savings its proportion?
+## 怎么等比缩放图形?
 
-By default when you resize with corner anchors (`top-left`, `top-right`, `bottom-left` or `bottom-right`) Transformer will save ratio of a node.
+默认情况下拖动控件四个角上的控制点缩放是等比例的，如果你不想拖动它们时等比缩放，可以设置 `keepRatio` 属性为 `false`来关闭此特性。
 
-You can set `keepRatio` to `false` if you don't need that behavior.
+同时即使设置了 `keepRatio` 属性为 `false`,也可以在拖动控制点时按住 `SHIFT` 保持等比缩放。
 
-Event if you set `keepRatio` to `false` you can hold `SHIFT` to still keep ratio.
-
-Instructions: Try to resize texts.
+**说明: 试试缩放下面的文字**
 
 {% iframe /downloads/code/select_and_transform/Keep_Ratio.html %}
 
