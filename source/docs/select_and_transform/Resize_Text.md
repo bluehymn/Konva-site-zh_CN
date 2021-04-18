@@ -1,14 +1,13 @@
-title: How to resize text on canvas?
+title: 缩放文本?
 ---
 
-### How to change width of the text with transforming tool?
+### 怎样使用变换工具调整文字宽度?
 
-Remember, that `Konva.Transformer` is changing `scaleX` and `scaleY` properties of a node.
-If you want to change width of the text, without changing its size, you should reset scale of a text back to 1 and adjust `width` accordantly. 
+首先，`Konva.Transformer` 改变的是节点的 `scaleX` 和 `scaleY` 属性。如果你想改变文字的宽度，不需要修改它的大小，你应该将文字的缩放比例重置为1并且相应的调整 `width`。
 
-You can use `transform` event to update text's properties as you need it.
+你可以通过 `transform` 事件更新文字的属性。
 
-Instructions: Try to resize a text.
+说明：试试缩放下面文字
 
 {% iframe /downloads/code/select_and_transform/Resize_Text.html %}
 
