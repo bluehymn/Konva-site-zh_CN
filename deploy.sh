@@ -6,7 +6,7 @@ mkdir public
 rm ./db.json
 npm run build
 
-echo "commit site changes"
+# echo "commit site changes"
 git add .
 
 DATE=`date +%Y-%m-%d`

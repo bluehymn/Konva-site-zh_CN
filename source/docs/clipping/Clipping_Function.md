@@ -1,9 +1,9 @@
-title: HTML5 Canvas Clipping Functions Tutorial
+title: 裁切函数
 ---
 
-To draw things inside of complex clipping regions with Konva, we can set the `clipFunc`
-property of a group, a layer.
-In this tutorial, we'll draw blobs inside of a two circles clipping region applied to a group.
+我们可以使用 `clipFunc` 属性来给组或图层设置复杂的裁切区域。
+
+在本教程中，我们将在两个圆形组成的区域内绘制图形。
 
 {% iframe /downloads/code/clipping/Clipping_Function.html %}
 

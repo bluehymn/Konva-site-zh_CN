@@ -77,7 +77,7 @@ doc_sidebar:
     基础示例: select_and_transform/Basic_demo.html
     基于中心缩放: select_and_transform/Centered_Scaling.html
     保持宽高比: select_and_transform/Keep_Ratio.html
-    修改样式: select_and_transform/Transformer_Styling.html
+    变换控件样式: select_and_transform/Transformer_Styling.html
     图形变换事件: select_and_transform/Transform_Events.html
     调整尺寸限制: select_and_transform/Resize_Limits.html
     旋转吸附: select_and_transform/Rotation_Snaps.html
@@ -88,12 +88,12 @@ doc_sidebar:
   裁剪:
     简单裁剪: clipping/Clipping_Regions.html
     复杂裁剪: clipping/Clipping_Function.html
-  组、图层和层级:
+  组、图层和层级(翻译中):
     组: groups_and_layers/Groups.html
     布局: groups_and_layers/Layering.html
     更换容器: groups_and_layers/Change_Containers.html
     zIndex: groups_and_layers/zIndex.html
-  滤镜:
+  滤镜(待翻译):
     Blur 模糊: filters/Blur.html
     Brighten 亮度: filters/Brighten.html
     Contrast 对比度: filters/Contrast.html
@@ -110,7 +110,7 @@ doc_sidebar:
     Pixelate 像素化: filters/Pixelate.html
     自定义滤镜: filters/Custom_Filter.html
     多重滤镜: filters/Multiple_Filters.html
-  补间动画:
+  补间动画(待翻译):
     线性 Easing: tweens/Linear_Easing.html
     自定义 Easings: tweens/Common_Easings.html
     全部 Easings: tweens/All_Easings.html
@@ -118,24 +118,24 @@ doc_sidebar:
     控制器: tweens/All_Controls.html
     补间滤镜: tweens/Tween_Filter.html
     复杂补间: tweens/Complex_Tweening.html
-  动画:
+  动画(待翻译):
     创建动画: animations/Create_an_Animation.html
     移动: animations/Moving.html
     旋转: animations/Rotation.html
     缩放: animations/Scaling.html
     停止动画: animations/Stop_Animation.html
-  选择器:
+  选择器(待翻译):
     id 选择器: selectors/Select_by_id.html
     type 选择器: selectors/Select_by_Type.html
     name 选择器: selectors/Select_by_Name.html
-  数据 & 序列化 & 导出:
+  数据 & 序列化 & 导出(待翻译):
     序列化舞台数据: data_and_serialization/Serialize_a_Stage.html
     简单导入: data_and_serialization/Simple_Load.html
     复杂导入: data_and_serialization/Complex_Load.html
     JSON最佳实践: data_and_serialization/Best_Practices.html
     舞台 Data URL: data_and_serialization/Stage_Data_URL.html
     到处高分辨率图片: data_and_serialization/High-Quality-Export.html
-  性能优化:
+  性能优化(待翻译):
     技巧: performance/All_Performance_Tips.html
     图层管理: performance/Layer_Management.html
     批量绘制: performance/Batch_Draw.html

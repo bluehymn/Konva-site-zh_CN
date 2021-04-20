@@ -1,9 +1,9 @@
-title: HTML5 Canvas Stop Shape Transform
+title: 禁用变换
 ---
 
-If you need to stop transforming immediately you can use `stopTransform` methods of `Konva.Transformer` instance.
+如果你想阻止图形变换，可以执行 `Konva.Transformer` 实例的 `stopTransform` 方法。
 
-Instructions: Try to resize a shape. If width of the shape is bigger then 200 transforming will be stopped.
+说明：试试变换下面图形，当图形宽度大于 200 时图形将不会再变化。
 
 {% iframe /downloads/code/select_and_transform/Stop_Transform.html %}
 

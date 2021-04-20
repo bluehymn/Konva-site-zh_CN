@@ -1,11 +1,9 @@
-title: HTML5 Canvas Transform and Resize events
+title: 图形变换事件
 ---
 
-`Konva.Transformer` object has special transform events that you can use in your app: `transformstart`, `transform` and `transformend`.
+`Konva.Transformer` 对象有三个事件 `transformstart`, `transform` and `transformend`。这些事件也将在附加的图形上被触发。
 
-These events also will be triggered on attached node.
-
-Instructions: Open console, try to transform, see logs
+说明：打开控制台, 试试变换图形，查看打印的日志
 
 {% iframe /downloads/code/select_and_transform/Transform_Events.html %}
 

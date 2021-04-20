@@ -1,13 +1,13 @@
-title: HTML5 Canvas Shape Snap Rotation
+title: 旋转吸附
 ---
 
-In some application, you may want to snap rotation near some values. Snapping makes a shape "sticky" near provided values and works like rounding.
+在一些应用里面，你可能想旋转接近到某些特定角度时吸附上去。吸附功能可以让图形旋转时黏在你设定的角度就像对旋转角度四舍五入一样。
 
-Most common snaps are 0, 45, 90, 135, 180, etc decreases. Snaps we allow to simpler set rotation it exactly these values.
+吸附的角度通常我们会设置为0, 45, 90, 135, 180 等等，同时也可以限制图形只能旋转到这些角度。
 
-For instance, if you have snap point at 45 deg, a user will be not able to set rotation to 43 deg. It will be rounded to 45 deg. But a user still will be able to set rotation to 35 deg, as it is too far from 45 so it will be not snapped.
+例如，如果你设置吸附角度为45°，那么用户就不能将它旋转到43°，但是他可以旋转到35°，因为离45°还有一些距离。
 
-Instructions: Try to rotate a shape. See snapping at 0, 90, 180 and 270 deg.
+说明：试试旋转下面图形，它会吸附到 0°, 90°, 180°, 270°。
 
 {% iframe /downloads/code/select_and_transform/Rotation_Snaps.html %}
 
