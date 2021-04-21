@@ -15,5 +15,5 @@ git init
 git add .
 git config user.email "bluehymn@qq.com"
 git config user.name "wujing"
-git commit -am 'Update docs'
+git commit -am "Update docs"
 git push https://github.com/bluehymn/cn.konvajs.git master --force
