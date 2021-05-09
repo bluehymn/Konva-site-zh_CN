@@ -1,12 +1,9 @@
-title: HTML5 Canvas Shape Layering
+title: 分层
 ---
 
-To layer shapes with Konva, we can use one of the following layering methods:
-`moveToTop()`, `moveToBottom()`, `moveUp()`, `moveDown()`, or `zIndex()`.
-You can also layer groups and layers.
+我们可以通过`moveToTop()`, `moveToBottom()`, `moveUp()`, `moveDown()`,  `zIndex()`等方法，修改图形的层级顺序。我们也可以管理分组和图层的层级顺序。
 
-Instructions: Drag and drop the boxes to move them around, and then use the
-buttons on the left to reorder the yellow box.
+说明：拖动方块然后点击左边的的按钮，看看图形层级顺序的变换。
 
 {% iframe /downloads/code/groups_and_layers/Layering.html %}
 

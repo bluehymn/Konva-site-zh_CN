@@ -90,7 +90,7 @@ doc_sidebar:
     复杂裁剪: clipping/Clipping_Function.html
   组、图层和层级(翻译中):
     组: groups_and_layers/Groups.html
-    布局: groups_and_layers/Layering.html
+    分层: groups_and_layers/Layering.html
     更换容器: groups_and_layers/Change_Containers.html
     zIndex: groups_and_layers/zIndex.html
   滤镜(待翻译):

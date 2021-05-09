@@ -1,14 +1,9 @@
-title: HTML5 Canvas Move Shape to Another Container Tutorial
+title:将图形移动到其它容器
 ---
 
-To move a shape from one container into another with Konva, we can use the
-`moveTo()` method which requires a container as a parameter.
-A container can be another stage, a layer, or a group.  You can also move groups
-into other groups and layers, or shapes from groups directly into other layers.
+我们可以使用`moveTo()`将图形移动到其它容器。容器可以是分组、图层或者分组。你也可以将group移动到其它分组或者图层，或者从组中直接移动到其它图层。
 
-Instructions: Drag and drop the groups and observe that the red rectangle is
-bound to either the yellow group or the blue group.
-Use the buttons on the left to move the box from one group into another.
+说明：拖动分组，点击左侧按钮，观察图形的变化。
 
 {% iframe /downloads/code/groups_and_layers/Change_Containers.html %}
 
