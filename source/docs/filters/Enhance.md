@@ -1,15 +1,13 @@
-title: HTML5 Canvas Enhance Image Filter Tutorial
+title: 反差滤镜
 ---
 
-To apply filter to an `Konva.Image`, we have to cache it first with `cache()`
-function. Then apply filter with `filter()` function.
+给图片添加滤镜前，我们必须先使用`cache()`方法将它缓存起来，然后使用`filter()`方法添加滤镜。
 
-To enhance an image with Konva, we can use the `Konva.Filters.Enhance` filter
-and set the enhance amount with the `enhance` property.
+我们可以使用`Konva.Filters.Enhance`滤镜调节图片反差，然后设置`enhance`来控制反差大小。
 
-Instructions: Slide the control to adjust the enhance value.
+说明：滑动控制杆来调节反差值。
 
-For all available filters go to [Filters Documentation](/api/Konva.Filters.html).
+查看所有滤镜 [Filters Documentation](/api/Konva.Filters.html).
 
 {% iframe /downloads/code/filters/Enhance.html %}
 

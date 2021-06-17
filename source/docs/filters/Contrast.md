@@ -1,14 +1,13 @@
-title: HTML5 Canvas Contrast filter Image Tutorial
+title: 对比度滤镜
 ---
 
-To apply filter to an `Konva.Node`, we have to cache it first with `cache()`
-function. Then apply filter with `filter()` function.
+给图片添加滤镜前，我们必须先使用`cache()`方法将它缓存起来，然后使用`filter()`方法添加滤镜。
 
-To change contrast of an image with Konva, we can use the `Konva.Filters.Contrast`.
+我们可以使用`Konva.Filters.Contrast`滤镜调节图片对比度。
 
-Instructions: Slide the control to change contrast value.
+说明：拖动滑杆调节对比度的值。
 
-For all available filters go to [Filters Documentation](/api/Konva.Filters.html).
+查看所有滤镜 [Filters Documentation](/api/Konva.Filters.html).
 
 {% iframe /downloads/code/filters/Contrast.html %}
 

@@ -1,15 +1,13 @@
-title: HTML5 Canvas Blur Image Filter Tutorial
+title: 模糊滤镜
 ---
 
-To apply filter to an `Konva.Image`, we have to cache it first with `cache()`
-function. Then apply filter with `filter()` function.
+给图片添加滤镜前，我们必须先使用`cache()`方法将它缓存起来，然后使用`filter()`方法添加滤镜。
 
-To blur an image with Konva, we can use the `Konva.Filters.Blur` filter
-and set the blur amount with the `blurRadius` property.
+我们可以使用`Konva.Filters.Blur`滤镜使图片模糊，然后设置`blurRadius`来控制模糊的大小。
 
-Instructions: Slide the control to adjust the blur radius.
+说明：滑动控制杆来调节模糊半径。
 
-For all available filters go to [Filters Documentation](/api/Konva.Filters.html).
+查看所有滤镜 [Filters Documentation](/api/Konva.Filters.html).
 
 {% iframe /downloads/code/filters/Blur.html %}
 
