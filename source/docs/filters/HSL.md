@@ -1,13 +1,13 @@
-title: HTML5 Canvas Hue, Saturation and Luminance filter Image Tutorial
+title: HTML5 Canvas HSL(Hue 色相, Saturation 饱和度， Luminance 明度) 滤镜
 ---
 
-To apply filter to an `Konva.Node`, we have to cache it first with `cache()` function. Then apply filter with `filter()` function.
+给图片添加滤镜前，我们必须先使用`cache()`方法将它缓存起来，然后使用`filter()`方法添加滤镜。
 
-To change hue, saturation and luminance components of an image with Konva, we can use the `Konva.Filters.HSL.
+我们可以使用`Konva.Filters.Contrast`滤镜调节图片的色相、饱和度及明度。
 
-Instructions: Slide the controls to change hsl values.
+说明：移动滑块改变图色相、饱和度和明度的值。
 
-For all available filters go to [Filters Documentation](/api/Konva.Filters.html).
+查看所有滤镜 [Filters Documentation](/api/Konva.Filters.html).
 
 {% iframe /downloads/code/filters/HSL.html %}
 
