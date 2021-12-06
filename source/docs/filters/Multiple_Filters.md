@@ -1,10 +1,9 @@
-title: HTML5 Canvas Multiple Filters Tutorial
+title: 多个滤镜叠加
 ---
 
-To apply multiple filters to an `Konva.Image`, we have to cache it first with `cache()`
-function. Then apply filters with `filter()` function.
+给图片添加滤镜前，我们必须先使用`cache()`方法将它缓存起来，然后使用`filter()`方法添加多个滤镜。
 
-For all available filters go to [Filters Documentation](/api/Konva.Filters.html).
+查看所有滤镜 [Filters Documentation](/api/Konva.Filters.html).
 
 {% iframe /downloads/code/filters/Multiple_Filters.html %}
 
