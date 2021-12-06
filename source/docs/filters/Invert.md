@@ -1,12 +1,12 @@
-title: HTML5 Canvas Invert Image Filter Tutorial
+title: 反相滤镜
 ---
 
-To apply filter to an `Konva.Image`, we have to cache it first with `cache()` function. Then apply filter with `filter()` function.
 
-To invert the colors of an image with Konva, we can use the
-`Konva.Filters.Invert` filter.
+给图片添加滤镜前，我们必须先使用`cache()`方法将它缓存起来，然后使用`filter()`方法添加滤镜。
 
-For all available filters go to [Filters Documentation](/api/Konva.Filters.html).
+我们可以使用`Konva.Filters.Invert`将图片反相
+
+查看所有滤镜 [Filters Documentation](/api/Konva.Filters.html).
 
 {% iframe /downloads/code/filters/Invert.html %}
 

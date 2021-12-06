@@ -103,7 +103,7 @@ doc_sidebar:
     HSL: filters/HSL.html
     HSV: filters/HSV.html
     RGB: filters/RGB.html
-    Invert 反向: filters/Invert.html
+    Invert 反相: filters/Invert.html
     Kaleidoscope 万花筒: filters/Kaleidoscope.html
     Mask 遮罩: filters/Mask.html
     Noise 噪声: filters/Noise.html

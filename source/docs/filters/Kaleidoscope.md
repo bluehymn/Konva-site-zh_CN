@@ -1,15 +1,13 @@
-title: HTML5 Canvas Kaleidoscope Image Filter Tutorial
+title: 万花筒
 ---
 
-To apply filter to an `Konva.Image`, we have to cache it first with `cache()`
-function. Then apply filter with `filter()` function.
+给图片添加滤镜前，我们必须先使用`cache()`方法将它缓存起来，然后使用`filter()`方法添加滤镜。
 
-To create a kaleidoscope with Konva, we can use the `Konva.Filters.Kaleidoscope`
-filter and set the `kaleidoscopePower` and `kaleidoscopeAngle` properties.
+我们可以使用`Konva.Filters.Kaleidoscope`滤镜，给图片创建一个万花筒效果，然后设置`kaleidoscopePower` 和 `kaleidoscopeAngle` 的值调整效果。
 
-Instructions: Slide the control to adjust the kaleidoscope angle.
+说明：拖动滑块调整万花筒的角度
 
-For all available filters go to [Filters Documentation](/api/Konva.Filters.html).
+查看所有滤镜 [Filters Documentation](/api/Konva.Filters.html).
 
 {% iframe /downloads/code/filters/Kaleidoscope.html %}
 
