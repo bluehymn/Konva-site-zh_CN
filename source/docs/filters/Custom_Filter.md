@@ -1,25 +1,22 @@
-title: HTML5 Canvas Custom Filter Tutorial - Border for Image around Non Transparent parts
+title: 自定义滤镜教程 - 给图片非透明部分边缘添加描边
 ---
 
+## 怎么给包含透明通道的图片添加描边？
 
-## How do draw border around image with alpha channel?
+本示例将演示如何使用Konva自定义滤镜。
 
-This demo demonstrate how to use custom filters with Konva framework.
-
-`Filter` is a function that have canvas ImageData as input and it should mutate it.
+首先`Flilter`是一个函数，它的入参是个ImageData对象，函数内将对这个ImageData对象进行修改。
 
 ```javascript
 function Filter(imageData) {
-  // do something with image data
+  // 修改ImageData
   imageData.data[0] = 0;
 }
 ```
 
-In this demo we will create custom filter that will draw solid border around image following its contour.
-Since following contour is a complex thing we will use a hack. So we will use blurred shadow as a border foundation.
-We will replace transparent/blurred pixels with our solid color that we want for border.
+本示例自定义了一个滤镜，滤镜会沿着图片边缘绘制实线描边。因为沿着边缘绘制会比较复杂，所以我们使用了一点技巧，我们以图片模糊的阴影作为基础，然后使用颜色替换掉透明和模糊的像素作为描边。
 
-For all available filters go to [Filters Documentation](/api/Konva.Filters.html).
+查看所有滤镜 [Filters Documentation](/api/Konva.Filters.html).
 
 {% iframe /downloads/code/filters/Custom_Filter.html %}
 

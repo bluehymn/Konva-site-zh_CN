@@ -1,14 +1,13 @@
-title: HTML5 Canvas RGBA filter Image Tutorial
+title: RGBA滤镜
 ---
 
-To apply filter to an `Konva.Image`, we have to cache it first with `cache()`
-function. Then apply filter with `filter()` function.
+给图片添加滤镜前，我们必须先使用`cache()`方法将它缓存起来，然后使用`filter()`方法添加滤镜。
 
-To change rgba components of an image with Konva, we can use the `Konva.Filters.RGBA`.
+我们可以使用`Konva.Filters.RGBA`滤镜修改图片的RGB三原色及透明通道的组成比例。
 
-Instructions: Slide the controls to change rgba values.
+说明：拖动下面滑块改变rgba的值。
 
-For all available filters go to [Filters Documentation](/api/Konva.Filters.html).
+查看所有滤镜 [Filters Documentation](/api/Konva.Filters.html).
 
 {% iframe /downloads/code/filters/RGBA.html %}
 
