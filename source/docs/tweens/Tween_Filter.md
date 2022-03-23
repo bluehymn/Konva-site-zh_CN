@@ -1,10 +1,11 @@
-title: HTML5 Canvas Tween Blur Filter Tutorial
+title: 滤镜补间动画效果
 ---
 
-To tween a filter using Konva, we can simply tween the properties associated with the filter.
-In this tutorial, we'll tween the `blurRadius` property, which controls the amount of blur applied to the image.
+我们可以通过设置tween的滤镜属性来控制补间动画效果。
 
-Instructions: mouseover the image to focus it.
+本教程演示了`blurRadius`来控制图片的模糊补间动画效果。
+
+说明：鼠标放到图片上查看效果。
 
 {% iframe /downloads/code/tweens/Tween_Filter.html %}
 

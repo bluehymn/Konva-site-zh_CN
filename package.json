@@ -6,7 +6,7 @@
   },
   "private": true,
   "scripts": {
-    "start": "gulp generate && hexo server --port=8000",
+    "start": "gulp generate && hexo server --port=9000",
     "build": "gulp generate"
   },
   "dependencies": {

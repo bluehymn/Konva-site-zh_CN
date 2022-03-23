@@ -111,9 +111,9 @@ doc_sidebar:
     自定义滤镜: filters/Custom_Filter.html
     多重滤镜: filters/Multiple_Filters.html
   补间动画(翻译中):
-    线性 Easing: tweens/Linear_Easing.html
-    自定义 Easings: tweens/Common_Easings.html
-    全部 Easings: tweens/All_Easings.html
+    线性缓动: tweens/Linear_Easing.html
+    通用缓动函数: tweens/Common_Easings.html
+    全部缓动函数: tweens/All_Easings.html
     动画完成事件: tweens/Finish_Event.html
     控制器: tweens/All_Controls.html
     补间滤镜: tweens/Tween_Filter.html

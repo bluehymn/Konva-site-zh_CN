@@ -1,11 +1,11 @@
-title: HTML5 Canvas Complex Tweening Tutorial
+title: 复杂补间动画
 ---
 
-Also you can use [GreenSock Konva Plugin](https://github.com/konvajs/greensock-plugin) for tweens.
+我们可以使用 [GreenSock Konva Plugin](https://github.com/konvajs/greensock-plugin) 来设置补间动画。
 
-GreenSock tweens are more powerfull than Konva's tween.
+GreenSock tweens 的功能比Konva的tween更强大。
 
-Also demo demonstrate tweening `fillLinearGradientColorStops` property with usual GreenSock usage.
+下面的例子演示了 GreenSock `fillLinearGradientColorStops`的使用。
 
 {% iframe /downloads/code/tweens/Complex_Tweening.html %}
 

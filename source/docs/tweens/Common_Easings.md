@@ -1,14 +1,11 @@
-title: HTML5 Canvas Simple Easings Tutorial
+title: 简单的补间动画
 ---
 
-To create a non linear easing tween with Konva, we can set the `easing`
-property to an easing function.  Other than `Konva.Easings.Linear`,
-the other most common easings are `Konva.Easings.EaseIn`,
-`Konva.Easings.EaseInOut`, and `Konva.Easings.EaseOut`.
+我们可以使用`Konva.Easings.EaseIn`, `Konva.Easings.EaseInOut`, and `Konva.Easings.EaseOut` 设置非线性的缓动动画。
 
-For all available easings go to [Easings Documentation](/api/Konva.Easing.html).
+点击查看所有可用的内置缓动函数 [Easings Documentation](/api/Konva.Easings.html).
 
-Instructions: Mouseover or touchstart the boxes to tween them with different easing functions
+说明：鼠标滑过或者点击下面的方块，运行不同的缓动动画效果。
 
 {% iframe /downloads/code/tweens/Common_Easing.html %}
 

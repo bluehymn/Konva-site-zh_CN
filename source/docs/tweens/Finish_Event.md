@@ -1,7 +1,7 @@
-title: HTML5 Canvas Tween Finish Event Tutorial
+title: 补间动画完成事件
 ---
 
-To trigger a user defined function when the tween finishes with Konva, we can set the `onFinish` property.
+当动画完成后，我们可以使用 `onFinish` 属性触发一个用户定义的方法。
 
 {% iframe /downloads/code/tweens/Finish_Event.html %}
 

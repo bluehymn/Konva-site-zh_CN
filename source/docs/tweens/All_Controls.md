@@ -1,9 +1,9 @@
-title: HTML5 Canvas All Tween Controls Tutorial
+title: 控制补间动画
 ---
 
-To play, pause, reverse, reset, finish, and seek tweens with Konva,
-we can use the `play()`, `pause()`, `reverse()`, `reset()`, `finish()`, and `seek()` methods.
-This tutorial demonstrates each control.
+我们可以使用`play()`, `pause()`, `reverse()`, `reset()`, `finish()`, `seek()`等方法，来控制补间动画。
+
+下面的示例将演示各个控制器的效果。
 
 {% iframe /downloads/code/tweens/All_Controls.html %}
 

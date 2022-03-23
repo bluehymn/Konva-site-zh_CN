@@ -1,12 +1,11 @@
-title: More Easing Functions Tutorial
+title: 全部缓动函数
 ---
 
-This tutorial demonstrates all of the easing function sets provided by Konva,
-including `Linear`, `Ease`, `Back`, `Elastic`, `Bounce`, and `Strong`.
+本篇教程将演示Konva内置的各种缓动函数的效果，包括`Linear`, `Ease`, `Back`, `Elastic`, `Bounce`, 和 `Strong`。
 
-For all available easings go to [Easings Documentation](/api/Konva.Easing.html).
+查看更多教程 [Easings Documentation](/api/Konva.Easing.html).
 
-Instructions: Press "Play" to transition all of the text nodes.
+说明：点击 "Play" 运行动画。
 
 {% iframe /downloads/code/tweens/All_Easings.html 500 700 %}
 
